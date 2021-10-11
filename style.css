@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: #19223e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 300px;
+    cursor: pointer;
+}
+.card-button {
+    background-color: #19223e;
+    color: white;
+    border: 13px solid #212c4d;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.card-button:focus {
+    border: 13px solid #7b3bf3;
+}
+.card-button h1 {
+    font-size: 50px;
+}
+.flex {
+    display: flex;
+}
+.purchase {
+    background-color: #1c243c;
+    border: 1px solid #7b3bf3;
+    padding: 15px;
+    margin: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.purchase:hover {
+    background-color: #7b3bf3;
+    transition-duration: 0.6s;
+}
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+.flex-center p {
+    margin-left: 10px;
+}
